@@ -1,0 +1,178 @@
+*,
+body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+._FormSection {
+    padding: 2em 0;
+}
+
+._Container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+._Container form fieldset:nth-child(1),
+._FormSection ._Container form fieldset:nth-child(1) {
+    padding: 20px 20px 0;
+    margin-bottom: 20px;
+}
+
+._FormSection ._Container form fieldset {
+    padding: 5px 5px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: grid;
+}
+
+._FormSection ._Container form fieldset legend {
+    padding: 10px;
+}
+
+._FormSection ._Container form fieldset label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+._FormSection ._Container form fieldset textarea {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+._FormSection ._Container form fieldset input {
+    display: block;
+    padding: 4px;
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+._FormSection ._Container form ._TableResponsive ._Table {
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    border-spacing: 0;
+}
+
+._FormSection ._Container form ._TableResponsive ._Table thead tr {
+    text-align: center;
+}
+
+._FormSection ._Container form ._TableResponsive ._Table thead tr th {
+    border: 1px solid #000;
+    padding: 7px;
+    background-color: #f2f2f2;
+    height: 30px;
+}
+
+._FormSection ._Container form ._TableResponsive ._Table tbody tr td {
+    border: 1px solid #000;
+    padding: 5px;
+    height: 25px;
+    font-size: 14px;
+}
+
+
+._FormSection ._Container form ._TableResponsive ._Table tbody tr:nth-child(6) td:nth-child(1) {
+    text-align: right;
+}
+
+._FormSection ._Container ._CreditCardContainer {
+    margin-top: 2em;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+._FormSection ._Container ._CreditCardContainer h2 {
+    margin-bottom: 10px;
+}
+
+
+._FormSection ._Container ._CreditCardContainer h3 {
+    margin-bottom: 10px;
+}
+
+._FormSection ._Container ._CreditCardContainer fieldset {
+    padding: 0 0 10px;
+    border: none;
+}
+
+._FormSection ._Container ._CreditCardContainer fieldset ._RadioButtonFs {
+    border: unset;
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px;
+}
+
+
+._FormSection ._Container ._CreditCardContainer fieldset ._RadioButtonFs label {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+
+._FormSection ._Container ._CreditCardContainer fieldset ._RadioButtonFs input {
+    display: inline-block;
+    padding: 0;
+    width: unset;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 0;
+}
+
+._FormSection ._Container ._CreditCardContainer fieldset ._FlexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+._FormSection ._Container ._CreditCardContainer fieldset ._FlexContainer ._FlexItems {
+    flex-basis: 49%;
+}
+
+._FormSection ._Container ._CreditCardContainer fieldset ._ButtonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+._FormSection ._Container ._CreditCardContainer fieldset button {
+    width: 90%;
+    height: 40px;
+    color: #fff;
+    background-color: #1677EB;
+    border: unset;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+._FormSection ._Container ._CreditCardContainer fieldset button:hover,
+._FormSection ._Container ._CreditCardContainer fieldset button:first-child:hover {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+    transition: 0.3s ease-out;
+}
+
+._FormSection ._Container ._CreditCardContainer fieldset button:first-child {
+    margin-right: 10px;
+    background-color: #65B938;
+}
+
+@media (max-width: 768px) {
+    ._TableResponsive {
+        overflow-x: scroll;
+    }
+}
